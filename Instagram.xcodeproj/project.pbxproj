@@ -28,6 +28,7 @@
 		DC8F1E132901A0E60023E175 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F1E122901A0E60023E175 /* StorageManager.swift */; };
 		DC8F1E152901A0F20023E175 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F1E142901A0F20023E175 /* AnalyticsManager.swift */; };
 		DC8F1E172901A0FD0023E175 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F1E162901A0FD0023E175 /* HapticsManager.swift */; };
+		DC8F1E192901A2720023E175 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC8F1E182901A2720023E175 /* GoogleService-Info.plist */; };
 		DC907E4A28FDB55E009676C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC907E4928FDB55E009676C4 /* AppDelegate.swift */; };
 		DC907E4C28FDB55E009676C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC907E4B28FDB55E009676C4 /* SceneDelegate.swift */; };
 		DC907E4E28FDB55E009676C4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC907E4D28FDB55E009676C4 /* HomeViewController.swift */; };
@@ -58,6 +59,7 @@
 		DC8F1E122901A0E60023E175 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		DC8F1E142901A0F20023E175 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		DC8F1E162901A0FD0023E175 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		DC8F1E182901A2720023E175 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DC907E4628FDB55E009676C4 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC907E4928FDB55E009676C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC907E4B28FDB55E009676C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		DC8F1DE728FEF84F0023E175 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DC8F1E182901A2720023E175 /* GoogleService-Info.plist */,
 				DC907E5428FDB55F009676C4 /* LaunchScreen.storyboard */,
 				DC907E5228FDB55F009676C4 /* Assets.xcassets */,
 				DC907E4928FDB55E009676C4 /* AppDelegate.swift */,
@@ -274,6 +277,7 @@
 			files = (
 				DC907E5628FDB55F009676C4 /* LaunchScreen.storyboard in Resources */,
 				DC907E5328FDB55F009676C4 /* Assets.xcassets in Resources */,
+				DC8F1E192901A2720023E175 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
