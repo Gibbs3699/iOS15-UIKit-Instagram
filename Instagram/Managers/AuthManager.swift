@@ -15,4 +15,24 @@ final class AuthManager {
     private init() {}
     
     let auth = Auth.auth()
+    
+    public func signIn(email: String,
+                       password: String,
+                       completion: @escaping (Result<User, Error>) -> Void
+    ) {
+        
+    }
+    
+    public func signUp(email: String,
+                       password: String,
+                       profilePicture: Data?,
+                       completion: @escaping (Result<User, Error>) -> Void
+    ) {
+        
+    }
+    
+    public func signOut(completion: @escaping (Result<User, Error>) -> Void
+    ) {
+        
+    }
 }
