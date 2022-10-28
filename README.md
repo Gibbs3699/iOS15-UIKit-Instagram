@@ -5,4 +5,5 @@
 ### 2. Class VS Static
 - class will allocate memory when called and deallocate but static will allocate memory not deallocate.
 - enum  will allocate memory when called and deallocate
+### 3. Class VS Static
 # Instagram
